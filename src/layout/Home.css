@@ -1,0 +1,11 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.mainContainer {
+  width: 1170px;
+  margin: 23px 4%;
+}

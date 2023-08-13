@@ -5,6 +5,16 @@
   margin-right: 10px;
 }
 
+.lng {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: #777777;
+}
+
 .lng-btn {
   background-color: transparent;
   border: none;
