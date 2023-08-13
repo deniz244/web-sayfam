@@ -6,8 +6,8 @@ import Foto from "../img/Foto.png";
 import "./css/Hero.css";
 
 //icons
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 //context
 import { LanguageContext } from "../contexts/LanguageContext";
@@ -47,11 +47,7 @@ export default function Hero() {
         <div id="sol2Name" className="mg40">
           <h2>{txt2}</h2>
         </div>
-        <div className="mg40">
-          <h2 id="sol2Yazi">
-            <span class="multitext"></span>
-          </h2>
-        </div>
+
         <div id="sol3" className="mg40">
           <p>{txt3}</p>
         </div>
@@ -65,10 +61,10 @@ export default function Hero() {
               target="_blank"
             >
               <p>
-                {/*<FontAwesomeIcon
+                <FontAwesomeIcon
                   icon={faGithub}
                   style={{ color: theme === true ? "#3730A3" : "#BAB2E7" }}
-                />*/}
+                />
               </p>
               <p>Github</p>
             </a>
@@ -79,10 +75,10 @@ export default function Hero() {
               target="_blank"
             >
               <p>
-                {/*<FontAwesomeIcon
+                <FontAwesomeIcon
                   icon={faLinkedinIn}
                   style={{ color: theme === true ? "#3730A3" : "#BAB2E7" }}
-  />*/}
+                />
               </p>
               <p>Linkedin</p>
             </a>
