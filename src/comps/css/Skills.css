@@ -1,0 +1,38 @@
+.skillsMain {
+  transition: scroll-behavior 0.5s ease-in-out;
+}
+.skillsBaslik {
+  display: flex;
+}
+
+.skillsAciklamalar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skillsContainer {
+  width: 300px;
+  padding-right: 10px;
+}
+.skillsContainer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-bottom: 42px;
+}
+.skillsYaziBoyutu {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 28px;
+  padding-bottom: 28px;
+}
+
+@media (max-width: 980px) {
+  .skillsAciklamalar {
+    justify-content: space-around;
+  }
+}

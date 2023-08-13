@@ -1,5 +1,6 @@
 import Hero from "../comps/Hero";
 import NavBar from "../comps/NavBar";
+import Skills from "../comps/Skills";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="mainContainer">
         <NavBar />
         <Hero />
+        <Skills />
       </div>
     </div>
   );
