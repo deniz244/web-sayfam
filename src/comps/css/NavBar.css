@@ -1,0 +1,11 @@
+.outerNav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+}
