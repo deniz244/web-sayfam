@@ -1,3 +1,4 @@
+import Hero from "../comps/Hero";
 import NavBar from "../comps/NavBar";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <div className="outerContainer">
       <div className="mainContainer">
         <NavBar />
+        <Hero />
       </div>
     </div>
   );
