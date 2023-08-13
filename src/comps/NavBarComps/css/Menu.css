@@ -1,0 +1,39 @@
+.outerNavManu {
+  margin-top: 30px;
+  display: flex;
+  text-align: center;
+  height: 62px;
+}
+
+.navMenu {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 1rem;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.innerNav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.buttonNav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 12px 32px;
+  color: #6b7280;
+}
+
+.buttonNavCerceve {
+  padding: 12px 32px;
+  border-radius: 6px;
+  gap: 10px;
+}
