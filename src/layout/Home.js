@@ -1,3 +1,9 @@
+import NavBar from "../comps/NavBar";
+
 export default function Home() {
-  return {};
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 }
