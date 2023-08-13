@@ -14,3 +14,182 @@
   flex-wrap: wrap;
   width: 50%;
 }
+
+.rightSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  width: 500px;
+}
+
+.rightSideFoto {
+  max-width: 396px;
+  height: 375px;
+  /*box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12);*/
+  border-radius: 18px;
+  width: 500px;
+}
+
+#sol1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#sol2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 72px;
+}
+#sol2Yazi {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28px;
+}
+#sol3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#sol4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#sol4Button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.buttonSolFont {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  border-radius: 6px;
+  padding: 12px 20px 12px 12px;
+  margin-right: 12px;
+}
+.sol4-1 {
+  padding: 12px 32px;
+  width: 131px;
+}
+.light-mode .sol4-1 {
+  background: #3730a3;
+  color: #ffffff;
+}
+.dark-mode .sol4-1 {
+  background: #e1e1ff;
+  color: #000000;
+}
+
+.sol4-2 {
+  display: flex;
+  align-items: center;
+}
+.light-mode .sol4-2 {
+  background: #ffffff;
+  border: 1px solid #3730a3;
+}
+.dark-mode .sol4-2 {
+  background: #383838;
+  color: #e1e1ff;
+  border: 1px solid #e1e1ff;
+}
+
+.sol4-2 p {
+  margin-left: 10px;
+}
+.sol4-3 {
+  display: flex;
+  align-items: center;
+  background: #383838;
+  color: #e1e1ff;
+  border: 1px solid #e1e1ff;
+}
+.light-mode .sol4-3 {
+  background: #ffffff;
+  border: 1px solid #3730a3;
+}
+.dark-mode .sol4-3 {
+  background: #383838;
+  color: #e1e1ff;
+  border: 1px solid #e1e1ff;
+}
+.sol4-3 p {
+  margin-left: 10px;
+}
+
+@media (max-width: 1086px) {
+  .leftSide {
+    width: 100%;
+  }
+
+  .rightSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #sol4 {
+    width: 100%;
+  }
+  #sol4Button {
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #sol4Button a {
+    margin: 10px 10px;
+  }
+}
+@media (max-width: 450px) {
+  #sol2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  #sol2Name h2 {
+    font-size: 55px;
+    line-height: 70px;
+  }
+}
+@media (max-width: 425px) {
+  .rightSideFoto {
+    max-width: 305px;
+    height: 305px;
+  }
+  #sol2 {
+    display: flex;
+    justify-self: center;
+    width: 90%;
+  }
+  #sol2Name h2 {
+    font-size: 55px;
+    line-height: 50px;
+    flex-wrap: wrap;
+  }
+  #sol3 {
+    display: flex;
+    justify-self: center;
+    width: 90%;
+  }
+}
+
+@media (max-width: 396px) {
+  #sol2 h2 {
+    font-size: 60px;
+    line-height: 72px;
+  }
+}
