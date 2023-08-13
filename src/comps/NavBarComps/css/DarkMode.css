@@ -6,6 +6,12 @@
 
 .mode p {
   margin-left: 10px;
+  font-family: Inter;
+  letter-spacing: 1.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 15px;
 }
 
 .switch {
