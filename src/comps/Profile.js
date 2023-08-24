@@ -27,7 +27,7 @@ export default function Profile() {
       setEgitimDurumu("Eğitim Durumu");
       setEgitim(<p>Ankara Hacettepe Ünv. Biyoloji Lisans</p>);
       setRol("Tercih Ettiği Rol");
-      setRolAciklama("Frontend Developer");
+      setRolAciklama("Frontend, UI");
       setHakkinda("Hakkında");
       setHakkindaAciklama(
         <p>
@@ -45,7 +45,7 @@ export default function Profile() {
       setEgitimDurumu("Education Status");
       setEgitim(<p>Hacettepe Uni Biology</p>);
       setRol("Preferred Role");
-      setRolAciklama("Frontend Developer");
+      setRolAciklama("Frontend, UI");
       setHakkinda("About Me");
       setHakkindaAciklama(
         <p>
