@@ -1,5 +1,6 @@
 import Hero from "../comps/Hero";
 import NavBar from "../comps/NavBar";
+import Profile from "../comps/Profile";
 import Skills from "../comps/Skills";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
         <NavBar />
         <Hero />
         <Skills />
+        <Profile />
       </div>
     </div>
   );
