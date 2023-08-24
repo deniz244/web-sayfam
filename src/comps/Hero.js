@@ -27,16 +27,16 @@ export default function Hero() {
       setTxt1("Yaratıcı düşünür");
       setTxt2("Minimalizm aşığı");
       setTxt3(
-        "Merhaba, ben Almila. Ben bir full-stack geliştiricisiyim. Mükemmel kullanıcı deneyimleriyle sağlam ve ölçeklenebilir frontend ürünleri oluşturacak bir geliştirici arıyorsanız el sıkışalım."
+        "Merhaba, ben Deniz. Ben bir full-stack geliştiricisiyim. Mükemmel kullanıcı deneyimleriyle sağlam ve ölçeklenebilir frontend ürünleri oluşturacak bir geliştirici arıyorsanız el sıkışalım."
       );
-      setTxt4("İşe alın");
+      setTxt4("İletişim!");
     } else if (language === "en-US") {
       setTxt1("Creative thinker");
       setTxt2("Minimalism lover");
       setTxt3(
-        "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me."
+        "Hi, I’m Deniz. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me."
       );
-      setTxt4("Hire me");
+      setTxt4("Contact!");
     }
   }, [language]);
 

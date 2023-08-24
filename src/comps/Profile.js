@@ -25,9 +25,9 @@ export default function Profile() {
       setdTarihi("Doğum Tarihi");
       setIkamet("İkamet Şehri");
       setEgitimDurumu("Eğitim Durumu");
-      setEgitim(<p>Ankara Hacettepe Ünv. Biyoloji Lisans</p>);
+      setEgitim(<p>Ankara Başkent Ünv. Bilgisayar Mühendsiliği Lisans</p>);
       setRol("Tercih Ettiği Rol");
-      setRolAciklama("Frontend, UI");
+      setRolAciklama("Front-End");
       setHakkinda("Hakkında");
       setHakkindaAciklama(
         <p>
@@ -43,9 +43,9 @@ export default function Profile() {
       setdTarihi("Date of Birth");
       setIkamet("Residence City");
       setEgitimDurumu("Education Status");
-      setEgitim(<p>Hacettepe Uni Biology</p>);
+      setEgitim(<p>Başkent Uni Computer Engineering</p>);
       setRol("Preferred Role");
-      setRolAciklama("Frontend, UI");
+      setRolAciklama("Front-End");
       setHakkinda("About Me");
       setHakkindaAciklama(
         <p>
@@ -70,7 +70,7 @@ export default function Profile() {
           <div className="ProfileKisim2-1">
             <div className="ProfileHakkinda">
               <h5 className="ProfileHakkinda-1">{dTarihi}</h5>
-              <p className="ProfileHakkinda-2">24.03.1996</p>
+              <p className="ProfileHakkinda-2">09.05.2000</p>
             </div>
             <div className="ProfileHakkinda">
               <h5 className="ProfileHakkinda-1">{ikamet}</h5>

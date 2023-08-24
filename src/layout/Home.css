@@ -9,3 +9,15 @@
   width: 1170px;
   margin: 23px 4%;
 }
+
+.footerContact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footerIc {
+  width: 1170px;
+  display: flex;
+  justify-content: center;
+}
