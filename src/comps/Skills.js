@@ -40,7 +40,7 @@ export default function Skills() {
   }, [language]);
 
   return (
-    <div className="skillsMain">
+    <div id="skillsMain">
       <div className="skillsBaslik">
         <h3>{skills}</h3>
       </div>

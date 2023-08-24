@@ -22,12 +22,29 @@ export default function Menu() {
     }
   }, [language]);
 
+  const scrollToSkills = () => {
+    const skillsElement = document.getElementById("skillsMain");
+    setTimeout(() => {
+      skillsElement.scrollIntoView({ behavior: "smooth" });
+    }, 100);
+  };
+  const scrollToProject = () => {
+    const skillsElement = document.getElementById("projectsMain");
+    setTimeout(() => {
+      skillsElement.scrollIntoView({ behavior: "smooth" });
+    }, 100);
+  };
+
   return (
     <div className="outerNavMenu">
       <div className="navMenu">
         <div className="innerNav">
-          <button className="buttonNav">{skills}</button>
-          <button className="buttonNav">{projects}</button>
+          <button className="buttonNav" onClick={scrollToSkills}>
+            {skills}{" "}
+          </button>
+          <button className="buttonNav" onClick={scrollToProject}>
+            {projects}
+          </button>
           <a className="buttonNavCerceve" href="mailto:deniztunc244@gmail.com">
             {hire}
           </a>
