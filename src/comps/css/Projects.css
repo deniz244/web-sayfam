@@ -1,0 +1,78 @@
+.ProjectsMain {
+  transition: scroll-behavior 0.5s ease-in-out;
+}
+.ProjectsContainer2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Sayfalarim {
+  width: 300px;
+  margin: 30px 10px;
+}
+.DataFoto {
+  width: 300px;
+  height: 180px;
+  padding-bottom: 18px;
+}
+.DataBaslik {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 28px;
+  padding-bottom: 18px;
+}
+.DataAciklama {
+  height: 126px;
+  max-height: 126px;
+  overflow: auto;
+  margin-bottom: 18px;
+}
+.Yazilimlar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 18px;
+}
+.DataYazilimlar {
+  padding: 6px 18px 7px;
+  gap: 10px;
+  border-radius: 4px;
+  margin: 5px 0px;
+}
+.dark-mode .DataYazilimlar {
+  background: #383838;
+  border: 1px solid #8f88ff;
+  color: #8f88ff;
+}
+.light-mode .DataYazilimlar {
+  background: #ffffff;
+  border: 1px solid #3730a3;
+  color: #3730a3;
+}
+
+.DataLinkler {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.DataLinkler a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration-line: underline;
+}
+.dark-mode .DataLinkler {
+  color: #e1e1ff;
+}
+.light-mode .DataLinkler {
+  color: #3730a3;
+}
+@media (max-width: 1150px) {
+  .ProjectsContainer2 {
+    justify-content: space-around;
+  }
+}
